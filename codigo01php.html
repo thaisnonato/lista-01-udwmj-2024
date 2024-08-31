@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Básica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        input {
+            width: 50px;
+            text-align: center;
+        }
+        button {
+            margin: 5px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        #resultado {
+            margin-top: 20px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Calculadora Simples em PHP</h2>
+    <form method="post" action="">
+        <input type="number" name="valor1" placeholder="0" required>
+        <input type="number" name="valor2" placeholder="0" required><br><br>
+
+        <button type="submit" name="operacao" value="+">+</button>
+        <button type="submit" name="operacao" value="-">-</button>
+        <button type="submit" name="operacao" value="*">*</button>
+        <button type="submit" name="operacao" value="/">/</button>
+    </form>
+
+    <h3 id="resultado">
+    <script src="codigo01.php"></script>
+</body>
+</html>
